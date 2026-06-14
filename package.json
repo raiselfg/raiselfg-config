@@ -4,6 +4,14 @@
     "description": "Shared ESLint & Prettier config",
     "type": "module",
     "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raiselfg/raiselfg-config.git"
+    },
+    "homepage": "https://github.com/raiselfg/raiselfg-config#readme",
+    "bugs": {
+        "url": "https://github.com/raiselfg/raiselfg-config/issues"
+    },
     "publishConfig": {
         "access": "public"
     },
