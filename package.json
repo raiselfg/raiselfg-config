@@ -1,12 +1,12 @@
 {
     "name": "@raiselfg/config",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Shared ESLint & Prettier config",
     "type": "module",
     "license": "MIT",
     "repository": {
-    "type": "git",
-    "url": "git+https://github.com/raiselfg/raiselfg-config.git"
+        "type": "git",
+        "url": "git+https://github.com/raiselfg/raiselfg-config.git"
     },
     "homepage": "https://github.com/raiselfg/raiselfg-config#readme",
     "bugs": {
