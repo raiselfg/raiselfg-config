@@ -5,13 +5,13 @@ Shared ESLint & Prettier config.
 ## Install
 
 ```bash
-npm i -D @goty/config eslint prettier typescript
+npm i -D @raiselfg/config eslint prettier typescript
 ```
 
 ## eslint.config.mjs
 
 ```js
-import { eslint } from '@goty/config/eslint';
+import { eslint } from '@raiselfg/config/eslint';
 
 export default eslint({
   react: true,
@@ -22,5 +22,5 @@ export default eslint({
 ## prettier.config.mjs
 
 ```js
-export { prettier as default } from '@goty/config/prettier';
+export { prettier as default } from '@raiselfg/config/prettier';
 ```
