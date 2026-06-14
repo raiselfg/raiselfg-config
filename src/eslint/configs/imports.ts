@@ -15,7 +15,7 @@ export const imports = (): FlatConfig[] => [
         'warn',
         {
           type: 'natural',
-          newlinesBetween: 'always',
+          newlinesBetween: 1,
           internalPattern: ['^@/.*'],
           groups: [
             'builtin',
