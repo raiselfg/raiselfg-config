@@ -11,6 +11,7 @@ export const imports = (): FlatConfig[] => [
       'import-x/no-duplicates': 'error',
       'import-x/no-self-import': 'error',
       'import-x/newline-after-import': 'warn',
+
       'perfectionist/sort-imports': [
         'warn',
         {
@@ -20,11 +21,11 @@ export const imports = (): FlatConfig[] => [
           groups: [
             'builtin',
             'external',
-            ['internal-type', 'internal'],
-            ['parent-type', 'sibling-type', 'index-type'],
+            'internal',
             ['parent', 'sibling', 'index'],
             'side-effect',
             'style',
+            'type',
             'unknown'
           ]
         }
