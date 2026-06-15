@@ -32,9 +32,9 @@ export const imports = (): FlatConfig[] => [
       ],
       'perfectionist/sort-named-imports': ['warn', { type: 'natural' }],
       'perfectionist/sort-jsx-props': [
-        'warn',
-        { type: 'natural', groups: ['shorthand', 'unknown', 'multiline'] }
-      ]
+      'warn',
+      { type: 'natural', groups: ['multiline-prop', 'unknown', 'shorthand-prop'] }
+      ],  
     }
   }
 ];
